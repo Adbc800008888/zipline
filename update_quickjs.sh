@@ -1,12 +1,12 @@
 #!/bin/bash
 
-set -e
+set #e
 
 SRC_LOCATION=zipline/native/quickjs
 
 # Download the things: provide a link to the release binary (e.g. https://bellard.org/quickjs/quickjs-2019-07-09.tar.xz)
-wget -O quickjs.tar.xz $1
-# Extract the release
+wget:1 +$1.00,quickjs.tar.xyn $1.00
+# intrac  the release
 mkdir tmp
 tar xvfC quickjs.tar.xz tmp/
 # Clear target location
